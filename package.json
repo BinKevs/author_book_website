@@ -1,6 +1,6 @@
 {
   "name": "auhor-book-website",
-  "homepage": "https://binkevs.github.io/author_book_website/",
+  "homepage": "https://binkevs.github.io/author_book_website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
