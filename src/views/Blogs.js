@@ -1,9 +1,9 @@
-function App() {
+function Blogs() {
   return (
     <div className='underline text-5xl'>
-      Hello
+      Blogs
     </div>
   );
 }
 
-export default App;
+export default Blogs;
