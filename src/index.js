@@ -8,14 +8,15 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter , Routes, Route } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <BrowserRouter  basename="/author_book_website">
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index  element={<App />}/>
-          <Route path="blogs" element={<Blogs />} />
-        </Route>
-      </Routes>
-    </BrowserRouter >
+    // <BrowserRouter  basename="/author_book_website">
+    //   <Routes>
+    //     <Route path="/" element={<Layout />}>
+    //       <Route index  element={<App />}/>
+    //       <Route path="blogs" element={<Blogs />} />
+    //     </Route>
+    //   </Routes>
+    // </BrowserRouter >
+    <App />
 );
 
 // If you want to start measuring performance in your app, pass a function
