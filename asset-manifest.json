@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/author_book_website/static/css/main.f7dbc43b.css",
-    "main.js": "/author_book_website/static/js/main.3aba3223.js",
+    "main.css": "/author_book_website/static/css/main.c16ce7a6.css",
+    "main.js": "/author_book_website/static/js/main.cc4235ad.js",
     "static/js/787.fa1be493.chunk.js": "/author_book_website/static/js/787.fa1be493.chunk.js",
+    "static/media/spaceEarthTemplate.mp4": "/author_book_website/static/media/spaceEarthTemplate.e8ad99d4e34cd0076351.mp4",
+    "static/media/aroundTheWorldWithBG.jpg": "/author_book_website/static/media/aroundTheWorldWithBG.b80e8de05e827923fded.jpg",
+    "static/media/authorJamesRemoveBg.png": "/author_book_website/static/media/authorJamesRemoveBg.6a39bc043a67132d1681.png",
+    "static/media/pensilBg.jpg": "/author_book_website/static/media/pensilBg.89f65c988ee98b71db0e.jpg",
+    "static/media/authorJames.jpg": "/author_book_website/static/media/authorJames.12c5f90a9f36bd9a1894.jpg",
+    "static/media/aroundTheWorldFandB.jpg": "/author_book_website/static/media/aroundTheWorldFandB.2712ed2518d3a934ece5.jpg",
+    "static/media/stoneHengeWhite.png": "/author_book_website/static/media/stoneHengeWhite.6116356856dcc9b07082.png",
+    "static/media/HollywoodBookReviewLogo.png": "/author_book_website/static/media/HollywoodBookReviewLogo.988659b2f88b901a239d.png",
     "index.html": "/author_book_website/index.html",
-    "main.f7dbc43b.css.map": "/author_book_website/static/css/main.f7dbc43b.css.map",
-    "main.3aba3223.js.map": "/author_book_website/static/js/main.3aba3223.js.map",
+    "main.c16ce7a6.css.map": "/author_book_website/static/css/main.c16ce7a6.css.map",
+    "main.cc4235ad.js.map": "/author_book_website/static/js/main.cc4235ad.js.map",
     "787.fa1be493.chunk.js.map": "/author_book_website/static/js/787.fa1be493.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7dbc43b.css",
-    "static/js/main.3aba3223.js"
+    "static/css/main.c16ce7a6.css",
+    "static/js/main.cc4235ad.js"
   ]
 }
