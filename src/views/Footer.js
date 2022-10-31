@@ -1,6 +1,7 @@
 import stoneHenge from "../assets/stoneHengeWhite.png";
 import { FaFacebookSquare, FaInstagram, FaTwitterSquare } from "react-icons/fa";
 import { IconContext } from "react-icons";
+import { Outlet, Link } from "react-router-dom";
 function FooterPart() {
   return (
     <>
@@ -37,31 +38,32 @@ function FooterPart() {
             © 2022 Stonehenge Literary & Media
             <div className="text-center"> All Rights Reserved.</div>
           </span>
-          <ul class="flex items-center mt-3 text-sm ">
+          <ul class="flex flex-wrap items-center mt-3 text-sm justify-center">
             <li>
-              <a href="#" class="mr-4 hover:underline md:mr-6 ">
+              <Link to="/" class="mr-4 hover:underline md:mr-6 ">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" class="mr-4 hover:underline md:mr-6">
+              <Link to="author" class="mr-4 hover:underline md:mr-6">
                 About
-              </a>
+              </Link>
             </li>
+
             <li>
-              <a href="#" class="mr-4 hover:underline md:mr-6">
-                Books
-              </a>
-            </li>
-            <li>
-              <a href="#" class="mr-4 hover:underline">
+              <Link to="review" class="mr-4 hover:underline">
                 Reviews
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" class="hover:underline">
+              <Link to="order" class="hover:underline">
+                Order
+              </Link>
+            </li>
+            <li>
+              <Link to="contact" class="hover:underline ml-2">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

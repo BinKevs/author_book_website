@@ -11,7 +11,7 @@ function Order() {
           </div>
           <div className="flex xl:flex-row flex-col xl:space-x-12 pt-[100px] ">
             <div className="my-auto">
-              <img className="max-w-[480px]" src={aroundTheWorldFandB} alt="" />
+              <img className="w-[480px] " src={aroundTheWorldFandB} alt="" />
             </div>
             <div className="flex xl:flex-row flex-col flex-wrap justify-center xl:space-x-8 my-auto text-white">
               <div>

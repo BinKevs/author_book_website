@@ -123,7 +123,12 @@ const NavBar = () => {
             <ul className="text-white space-y-4 text-xl font-Montserrat font-medium text-center pb-[82px]">
               {" "}
               <li>
-                <Link to="/" className="" aria-current="page">
+                <Link
+                  onClick={() => setHamBurgetState(!hamBurgetState)}
+                  to="/"
+                  className=""
+                  aria-current="page"
+                >
                   Home
                 </Link>
               </li>
@@ -132,12 +137,22 @@ const NavBar = () => {
                 {aboutState && (
                   <div className=" space-y-2 ml-[80px] text-left border-l-4 border-[#2A4C9A] pl-2">
                     <div>
-                      <Link to="author" className="" aria-current="page">
+                      <Link
+                        onClick={() => setHamBurgetState(!hamBurgetState)}
+                        to="author"
+                        className=""
+                        aria-current="page"
+                      >
                         Author
                       </Link>
                     </div>
                     <div>
-                      <Link to="book" className="" aria-current="page">
+                      <Link
+                        onClick={() => setHamBurgetState(!hamBurgetState)}
+                        to="book"
+                        className=""
+                        aria-current="page"
+                      >
                         Book
                       </Link>
                     </div>
@@ -146,6 +161,7 @@ const NavBar = () => {
               </li>
               <li>
                 <Link
+                  onClick={() => setHamBurgetState(!hamBurgetState)}
                   to="order"
                   className=" py-2 pr-4 pl-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#2A4C9A] md:p-0 "
                 >
@@ -153,12 +169,20 @@ const NavBar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="reviews" className=" ">
+                <Link
+                  onClick={() => setHamBurgetState(!hamBurgetState)}
+                  to="reviews"
+                  className=" "
+                >
                   Reviews
                 </Link>
               </li>
               <li>
-                <Link to="contact" className="">
+                <Link
+                  onClick={() => setHamBurgetState(!hamBurgetState)}
+                  to="contact"
+                  className=""
+                >
                   Contact
                 </Link>
               </li>
