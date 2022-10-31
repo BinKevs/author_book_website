@@ -24,7 +24,7 @@ function ContactUs() {
               <div className=" space-y-3">
                 <div className="text-xl font-bold">Email Us:</div>
 
-                <div className="text-gray-400 text-xl">
+                <div className="text-gray-400 text-xl max-w-[250px]">
                   info@stonehengeliterary.com
                 </div>
               </div>
@@ -37,7 +37,9 @@ function ContactUs() {
               </div>
               <div className=" space-y-3">
                 <div className="text-xl font-bold">Call Us:</div>
-                <div className="text-gray-400 text-xl">855-674-2878 </div>
+                <div className="text-gray-400 text-xl max-w-[250px]">
+                  855-674-2878{" "}
+                </div>
               </div>
             </div>
             <div className="">
@@ -51,7 +53,7 @@ function ContactUs() {
                 {/* <div className="text-gray-400">
                   Happy to assist you on our office
                 </div> */}
-                <div className="text-gray-400 text-xl">
+                <div className="text-gray-400 text-xl max-w-[250px]">
                   1846 E Innovation Park Dr STE 100 Oro Valley, Arizona City,
                   AZ, United States
                 </div>
