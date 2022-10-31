@@ -65,15 +65,25 @@ function Reviews() {
   ]);
   return (
     <>
-      <div className="h-full bg-black relative flex font-Montserrat md:mt-[88px] mt-[82px] ">
+      <div className="h-full bg-black relative flex md:mt-[88px] mt-[82px] ">
         <div className="m-auto w-[80%] text-white">
           <div>
             <div className="text-7xl font-bold py-6 uppercase text-[#13699B]">
               Kirkus
             </div>
+            <div className="text-gray-400 text-md ">
+              <div>Release Date: June 28, 2018</div>
+              <div>ISBN: 978-1-4809-5936-1</div>
+              <div>Page Count: 46</div>
+              <div>Publisher: Dorrance Publishing Co.</div>
+              <div>Review Posted Online: Dec. 18, 2018</div>
+            </div>
+            <div className="text-gray-300 text-xl my-4 ">
+              {" "}
+              " A book of poetry that works a classic form for all it’s worth."
+            </div>
             <div className="text-gray-300 text-lg border-l-4 pl-4 border-[#13699B] ml-8">
-              A book of poetry that works a classic form for all it’s worth. “Do
-              not try to do everything. Do one thing well.” So said the late
+              “Do not try to do everything. Do one thing well.” So said the late
               Steve Jobs, giving advice that debut poet Anstead seems to have
               taken quite seriously. The latter’s new collection does one thing
               and one thing only: the limerick. This, of course, is the most
@@ -103,14 +113,36 @@ function Reviews() {
               ruin the fun. Anstead packs lots of joy into tiny packages in this
               slim but playful collection.
             </div>
+            <div className="text-lg my-4">
+              Source :{" "}
+              <a
+                className=" cursor-pointer text-blue-600 font-bold"
+                target="_Blank"
+                href="https://www.kirkusreviews.com/book-reviews/james-b-anstead/around-the-world-in-five-lines/"
+              >
+                www.kirkusreviews.com
+              </a>
+            </div>
           </div>
           <div>
             <div className="text-7xl font-bold text-end py-6 uppercase text-[#54447F]">
               Pacific Book Review
             </div>
+            <div className="text-gray-400 text-md text-end">
+              <div>Release Date: June 28, 2018</div>
+              <div>ISBN: 978-1647537241</div>
+              <div>Page Count: 48</div>
+              <div>Publisher: URLink Print & Media, LLC</div>
+              <div> Reviewed by: Jack Chambers</div>
+              <div>Genre: Literature & Fiction / Poetry</div>
+              <div>Review Posted Online: Dec. 18, 2018</div>
+            </div>
+            <div className="text-gray-300 text-xl my-4 text-end">
+              {" "}
+              " A One of life’s greatest adventures which people strive to have
+              in their lives at one point or another is the ability to travel."
+            </div>
             <div className="text-gray-300 text-lg text-right border-r-4 pr-4 border-[#54447F] mr-8">
-              One of life’s greatest adventures which people strive to have in
-              their lives at one point or another is the ability to travel.
               Growing up in a specific country and learning about the world
               around us, many people have the desire, and for some the need, to
               travel and visit these faraway lands which make up our planet.
@@ -156,11 +188,34 @@ function Reviews() {
               the business of travel that will heal the stresses that many feel
               whilst in the throes of travel as a whole.
             </div>
+            <div className="text-lg my-4 text-end">
+              Source :{" "}
+              <a
+                className=" cursor-pointer text-blue-600 font-bold"
+                target="_Blank"
+                href="https://www.pacificbookreview.com/around-the-world-in-five-lines/"
+              >
+                www.pacificbookreview.com
+              </a>
+            </div>
           </div>
           <div>
             <div className="md:text-7xl text-4xl font-bold py-6 uppercase text-[#FFFE98]">
               Hollywood Book Reviews
             </div>
+            <div className="text-gray-400 text-md ">
+              <div>Release Date: June 28, 2018</div>
+              <div>ISBN: 978-1-64753-717-3</div>
+              <div>Page Count: 46</div>
+              <div>Publisher: URLink Print & Media, LLC</div>
+              <div>Reviewed by: Allison Walker</div>
+            </div>
+            <div className="text-gray-300 text-xl my-4 ">
+              {" "}
+              "Limericks are playful and humorous rhyming poems that follow a
+              strict rhyming structure and cadence."
+            </div>
+
             <div className="text-gray-300 text-lg border-l-4 pl-4 border-[#FFFE98] ml-8">
               Limericks have long held a spot in the hearts of children and
               adults alike for their playful themes and strict structure, which
@@ -206,6 +261,16 @@ function Reviews() {
               it demands to be shared. It’s impossible to imagine any reader who
               wouldn’t find a smile on their face upon reading Anstead’s Around
               the World in Five Lines.
+            </div>
+            <div className="text-lg my-4">
+              Source :{" "}
+              <a
+                className=" cursor-pointer text-blue-600 font-bold"
+                target="_Blank"
+                href="https://www.hollywoodbookreviews.com/around-the-world-in-five-lines/"
+              >
+                www.hollywoodbookreviews.com
+              </a>
             </div>
           </div>
           <div>

@@ -1,6 +1,9 @@
 import aroundTheWorldVideo from "../assets/spaceEarthTemplate.mp4";
 import HollywoodBookReviewLogo from "../assets/HollywoodBookReviewLogo.png";
 import authorJames from "../assets/authorJamesRemoveBg.png";
+import { Outlet, Link } from "react-router-dom";
+import { IconContext } from "react-icons";
+import { AiOutlineRight } from "react-icons/ai";
 
 function Landing() {
   return (
@@ -28,7 +31,7 @@ function Landing() {
                 href="https://www.amazon.com/Around-World-Lines-James-Anstead-ebook/dp/B09FRY2XMD/ref=sr_1_1?crid=2YPXSXXLL2JPZ&keywords=around+the+world+in+five+lines+james+b+anstead&qid=1666881346&sprefix=around+the+world+in+five+lines+james+b+anstea%2Caps%2C310&sr=8-1"
                 target="_blank"
               >
-                <div class="focus:outline-none text-white bg-[white] hover:bg-gray-600 active:bg-gray-800 font-medium rounded-lg text-md px-5 md:py-2.5 py-3.5 md:max-w-[270px] max-w-[170px] mx-auto">
+                <div class="focus:outline-none text-white bg-[white] hover:bg-[#FF9900] hover:border-4 font-medium rounded-lg text-md px-5 md:py-2.5 py-3.5 md:max-w-[270px] max-w-[170px] mx-auto">
                   <img
                     className="pt-2 "
                     src="https://jamesanstead.com/wp-content/uploads/2021/02/580b57fcd9996e24bc43c518-1-300x60.png"
@@ -104,6 +107,13 @@ function Landing() {
               taken quite seriously. The latter’s new collection does one thing
               and one thing only: the limerick.
             </div>
+
+            <Link to="reviews" className="text-xl my-4 text-blue-400 flex">
+              Read More{" "}
+              <IconContext.Provider value={{ size: "1.8em" }}>
+                <AiOutlineRight />
+              </IconContext.Provider>
+            </Link>
           </div>
         </div>
         <div className="w-[75%] mx-auto">
@@ -125,6 +135,15 @@ function Landing() {
               historical landscapes, or meet new friends, travel has a way of
               giving us a well-rounded picture of what makes up our planet.
             </div>
+            <Link
+              to="reviews"
+              className="text-xl my-4 text-blue-400 flex justify-end"
+            >
+              Read More{" "}
+              <IconContext.Provider value={{ size: "1.8em" }}>
+                <AiOutlineRight />
+              </IconContext.Provider>
+            </Link>
           </div>
         </div>
         <div className="w-[75%] mx-auto">
@@ -140,6 +159,12 @@ function Landing() {
               limericks, titled Around the World in Five Lines, is a fun and
               funny assembly.
             </div>
+            <Link to="reviews" className="text-xl py-4 text-blue-400 flex">
+              Read More{" "}
+              <IconContext.Provider value={{ size: "1.8em" }}>
+                <AiOutlineRight />
+              </IconContext.Provider>
+            </Link>
           </div>
         </div>
       </div>

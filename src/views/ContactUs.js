@@ -70,6 +70,7 @@ function ContactUs() {
             class="space-y-8 "
             action="https://formsubmit.co/kevinbryanbuenaseda@gmail.com"
             method="POST"
+            target="_blank"
           >
             <div>
               <label for="subject" class="block mb-2 text-sm font-medium ">

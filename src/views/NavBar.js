@@ -15,7 +15,7 @@ const NavBar = () => {
         id="navbar"
       >
         <div className=" flex flex-wrap justify-between items-center mx-auto">
-          <Link href="https://flowbite.com/" className="flex items-center">
+          <Link to="author" className="flex items-center">
             <span className="md:text-5xl text-xl font-semibold whitespace-nowrap font-Montserrat text-white">
               JAMES B.{" "}
               <span className="text-[#2A4C9A] animate-pulse">ANSTEAD</span>
@@ -120,18 +120,37 @@ const NavBar = () => {
             exit={{ opacity: 0, x: "100vw", scale: 0.1 }}
             transition={{ duration: 0.5 }}
           >
-            <ul className="text-white space-y-4 text-xl font-Montserrat font-medium text-center">
+            <ul className="text-white space-y-4 text-xl font-Montserrat font-medium text-center pb-[82px]">
               {" "}
               <li>
                 <Link to="/" className="" aria-current="page">
                   Home
                 </Link>
               </li>
-              <li>
-                <Link className="  ">About</Link>
+              <li onClick={() => setAboutState(!aboutState)}>
+                About
+                {aboutState && (
+                  <div className=" space-y-2 ml-[80px] text-left border-l-4 border-[#2A4C9A] pl-2">
+                    <div>
+                      <Link to="author" className="" aria-current="page">
+                        Author
+                      </Link>
+                    </div>
+                    <div>
+                      <Link to="book" className="" aria-current="page">
+                        Book
+                      </Link>
+                    </div>
+                  </div>
+                )}
               </li>
               <li>
-                <Link className="">Books</Link>
+                <Link
+                  to="order"
+                  className=" py-2 pr-4 pl-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#2A4C9A] md:p-0 "
+                >
+                  Order
+                </Link>
               </li>
               <li>
                 <Link to="reviews" className=" ">
